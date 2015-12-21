@@ -1,0 +1,83 @@
+.navbar-default {
+    background-color: transparent;
+    border-color: #fff;
+    font-weight: bold;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: none;
+}
+.navbar-default .navbar-brand {
+  font-size: 30px;
+  color: #efd524;
+}
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #efd524;
+    background: transparent;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #efd524;
+  background-color: transparent;
+  }
+
+.search-bar {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.search-icon {
+	position: absolute;
+	top: 15px;
+	right: 6px;
+}
+.navbar-form {
+	display: none;
+	margin-top: 50px;
+    right: 0;
+}
+#slider {
+    position: relative;
+    background: url('../images/slider.jpg');
+    color: #fff;
+    text-align: center;
+}
+.item {
+    padding: 150px 0;
+}
+.item p{
+    padding: 10px 180px;
+}
+.item h1{
+    font-size: 45px;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,.5);
+}
+.slider-overlay {
+  width: 100%;
+  background: rgba(0,0,0,.5);
+}
+
+.h1-color {
+  color: #efd524;
+}
+.carousel-indicators li {
+    background-color:#fff;
+}
+.carousel-indicators .active {
+    background-color: #efd524;
+    border: 1px solid #efd524;
+}
+.get-start-btn{
+  color: #fff;
+  background: #efd524;
+  padding: 20px 60px;
+    widows: 100px;
+    height: 40px;
+}
